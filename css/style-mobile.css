@@ -11,15 +11,15 @@
     .pic{
         order: 1;
     }
-    .text{
-        order: 2;
-        padding: 40px 20px 20px 20px;
-    }
     img{
         border-radius: 1rem 1rem 0 0;
     }
     .overlay{
         border-radius: 1rem 1rem 0 0;
+    }
+    .text{
+        order: 2;
+        padding: 40px 20px 20px 20px;
     }
     .description{
         margin: 30px 0 0 0;
