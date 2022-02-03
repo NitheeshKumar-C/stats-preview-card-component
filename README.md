@@ -26,9 +26,11 @@ Users should be able to:
 ### Design
 
 - Desktop
+
 ![](design/desktop-preview.jpg)
 
 - Mobile
+
 ![](design/mobile-design.jpg)
 
 
