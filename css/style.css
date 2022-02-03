@@ -83,3 +83,9 @@ img{
     padding: 30px 0 0 0;
     text-align: center;
 }
+.attribution p{
+    padding-bottom: 5px;
+}
+.attribution a{
+    padding-left: 5px;
+}
