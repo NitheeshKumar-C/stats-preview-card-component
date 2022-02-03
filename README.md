@@ -30,6 +30,7 @@ Users should be able to:
 ![](design/desktop-preview.jpg)
 
 - Mobile
+
 ![](design/mobile-design.jpg)
 
 
