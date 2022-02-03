@@ -6,7 +6,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Design](#screenshot)
+  - [Design](#design)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/bootstrapflexboxgrid-zZNO2hwOp)
 - [Live Site](https://nitheeshkumar-c.github.io/stats-preview-card-component/)
 
 ## My process
