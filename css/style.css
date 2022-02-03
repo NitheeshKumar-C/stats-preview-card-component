@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+}
+img{
+    filter: blur(hsl(277, 64%, 61%));
+     color: hsl(233, 47%, 7%) hsl(244, 38%, 16%) hsl(277, 64%, 61%)
+            hsl(0, 0%, 100%) hsla(0, 0%, 100%, 0.75) hsla(0, 0%, 100%, 0.6) 
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.row{
+    border-radius: 0.5rem;
+    background-color: hsl(244, 38%, 16%);
+    justify-content: space-between;
+}
+.pic{
+    order: 2;
+    padding: 0;
+}
+img{
+    border-radius: 0 0.5rem 0.5rem 0;
+    opacity: 0.65;
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    border-radius: 0 0.5rem 0.5rem 0;
+    text-align: right;
+    background-color: hsl(278, 100%, 50%);
+    width: 100%;
+    height: 100%;
+}
+.text{
+    padding: 70px 70px 0 70px;
+    order: 1;
+}
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+/* font-family: 'Lexend Deca', sans-serif; */
+}
+.highlight-word{
+    color: hsl(277, 64%, 61%);
+}
+.description{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 3rem 0 0 0;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.popularity{
+    margin: 5.375rem 5.625rem 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.popularity p{
+    line-height: 1;
+}
+.popularity div{
+    padding: 10px;
+}
+.num{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.s{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution{
+    padding: 30px 0 0 0;
+    text-align: center;
+}
