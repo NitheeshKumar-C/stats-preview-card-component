@@ -2,6 +2,9 @@
     *{
         text-align: center;
     }
+    main{
+        max-width: 90%;
+    }
     .container{
         flex-direction: column;
     }
@@ -10,8 +13,14 @@
         order: 2;
         margin: 5% auto;
     }
+    .heading{
+        padding: 10px;
+        font-size: 2rem;
+    }
     .description{
+        font-size: 0.9rem;
         margin: 5% 10%;
+        text-align: center;
     }
     .stats{
         margin: 10% auto 5% auto;
@@ -19,7 +28,13 @@
         flex-direction: column;
     }
     .stats-div{
-        margin: 3%;
+        margin: 5%;
+    }
+    .stats-num{
+        font-size: 1.5rem;
+    }
+    .stats-p{
+        font-size: 0.7rem;
     }
     .pic{
         width: 100%;
@@ -38,19 +53,18 @@
         font-size: 0.7rem;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 295px) {
     *{
         font-size: 0.8rem;
     }
     .heading,.highlight{
         font-size: 1.5rem;
     }
-    .main{
-        width: 19rem;
-        display: none;
+    .heading{
+        padding: 10px;
     }
-    .container{
-        width: 100%;
+    .description{
+        font-size: 1rem;
     }
     .attribution{
         font-size: 0.5rem;
