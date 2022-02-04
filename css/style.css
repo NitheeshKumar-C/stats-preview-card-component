@@ -1,91 +1,81 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(233, 47%, 7%);
     color: white;
+    font-family: 'Inter', sans-serif;
+
 }
-img{
-    filter: blur(hsl(277, 64%, 61%));
-     color: hsl(233, 47%, 7%) hsl(244, 38%, 16%) hsl(277, 64%, 61%)
-            hsl(0, 0%, 100%) hsla(0, 0%, 100%, 0.75) hsla(0, 0%, 100%, 0.6) 
+main{
+    max-width: 75%;
 }
 .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.row{
-    border-radius: 0.5rem;
+    display: flex;
     background-color: hsl(244, 38%, 16%);
-    justify-content: space-between;
+    border-radius: 0.5rem;
 }
-.pic{
-    order: 2;
-    padding: 0;
-}
-img{
-    border-radius: 0 0.5rem 0.5rem 0;
-    opacity: 0.65;
-    width: 100%;
-    height: 100%;
-}
-.overlay{
-    border-radius: 0 0.5rem 0.5rem 0;
-    text-align: right;
-    background-color: hsl(278, 100%, 50%);
-    width: 100%;
-    height: 100%;
-}
-.text{
-    padding: 70px 70px 0 70px;
+.content{
+    width: 50%;
     order: 1;
+    margin: 5% 7% 0 5%;
+    font-weight: 400;
 }
 .heading{
-    font-family: 'Inter', sans-serif;
+    margin-bottom: 3%;
+    font-size: 2.5rem;
+    font-family: 'Lexend Deca', sans-serif;
     font-weight: 700;
-/* font-family: 'Lexend Deca', sans-serif; */
 }
-.highlight-word{
-    color: hsl(277, 64%, 61%);
+.highlight{
+    color: hsl(277, 98%, 64%);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.pic{
+    border-radius: 0 0.5rem 0.5rem 0;
+    width: 50%;
+    order: 2;
+    background-color: hsl(277, 90%, 30%);
+}
+.m-img{
+    display: none;
+}
+.d-img,.m-img{
+    border-radius: 0 0.5rem 0.5rem 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    filter: brightness(0.8);
 }
 .description{
-    font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
-    margin: 3rem 0 0 0;
-    font-size: 15px;
-    line-height: 2;
+    margin: 5% 20% 5% 0;
+    line-height: 1.5;
 }
-
-.popularity{
-    margin: 5.375rem 5.625rem 0.5rem 0;
+.stats{
+    margin: 15% 20% 5% 0;
     display: flex;
     justify-content: space-between;
+    line-height: 1.5;
 }
-.popularity p{
-    line-height: 1;
-}
-.popularity div{
-    padding: 10px;
-}
-.num{
-    font-weight: 700;
-    font-size: 2rem;
-}
-.s{
+.stats-num{
+    font-size: 1.5rem;
     font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+}
+.stats-p{
+    font-size: 0.8rem;
     color: hsla(0, 0%, 100%, 0.75);
 }
-
 .attribution{
-    padding: 30px 0 0 0;
+    margin-top: 3%;
     text-align: center;
-}
-.attribution p{
-    padding-bottom: 5px;
-}
-.attribution a{
-    padding-left: 5px;
+    line-height: 1.5;
 }
