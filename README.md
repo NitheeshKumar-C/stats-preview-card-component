@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://www.frontendmentor.io/solutions/bootstrapflexboxgrid-zZNO2hwOp)
-- [Live Site](https://nitheeshkumar-c.github.io/stats-preview-card-component/)
+- [Live_Site](https://nitheeshkumar-c.github.io/stats-preview-card-component/)
 
 ## My process
 
