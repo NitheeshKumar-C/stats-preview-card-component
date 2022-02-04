@@ -46,12 +46,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- BootStrap
 
 ### What I learned
 
-- flex-box,positions
+- flex-box,display
 
 ### Useful resources
 
