@@ -2,10 +2,8 @@
     *{
         text-align: center;
     }
-    main{
-        max-width: 90%;
-    }
     .container{
+       max-width: 90%;
        margin-top: 3rem;
        flex-direction: column;
     }
